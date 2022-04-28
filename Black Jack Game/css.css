@@ -1,0 +1,45 @@
+body {
+    background-image: url("assest/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: "Curlz MT", serif;
+    text-align: center;
+    color: #7bed9f;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#btn, #btn-restart {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto Thin", serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: red;
+    border-bottom-width: 10px;
+    margin-left: 20%;
+}
+
+h3 {
+    color: #ecf0f1;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#mainResult {
+    border: #2c3e50 7px solid;
+}
+
+#btn-restart{
+    display: none;
+    margin-top: 10px;
+}
+img{
+    margin-left: 10px;
+}
